@@ -1,0 +1,240 @@
+@media (max-width: 1200px) {
+  .header .header-content .navbar {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .header .header-content .main p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .header .header-content .main .dotnav .dot {
+    top: 280px;
+  }
+  .content-container .about .top .right-text {
+    width: 50%;
+    padding-left: 0;
+  }
+  .content-container .works .work-title {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .content-container .contact .contact-container .contact-form-container form {
+    margin-left: 20px;
+  }
+  .content-container .contact .contact-container .client {
+    margin-right: 20px;
+  }
+  .footer .footer-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .footer .footer-container .footer-items .right .newsletter form {
+    width: 68%;
+  }
+  .footer .footer-container .footer-items .right .newsletter form input {
+    padding-left: 5px;
+  }
+  .footer .footer-container .footer-items .right .social .social-icon {
+    margin-right: 0;
+  }
+}
+@media (max-width: 900px) {
+  .header .header-content .navbar .menu {
+    padding-left: 5px;
+  }
+  .header .header-content .navbar .menu li {
+    padding-right: 8px;
+  }
+  .header .header-content .main p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .header .header-content .main .dotnav .dot {
+    top: 200px;
+  }
+  .content-container .about .top .logo-content {
+    padding-left: 0;
+  }
+  .content-container .about .top .right-text {
+    padding-right: 20px;
+  }
+  .content-container .works .work-items .top-items .work-item {
+    width: 25%;
+  }
+  .content-container .works .work-items .top-items .work-item:last-child {
+    display: none;
+  }
+  .content-container .works .work-items .bottom-items .work-item {
+    width: 25%;
+  }
+  .content-container .works .work-items .bottom-items .work-item:last-child {
+    display: none;
+  }
+  .content-container .contact .contact-container {
+    padding-left: 30px;
+  }
+  .content-container .contact .contact-container .contact-form-container {
+    display: block;
+    width: 100%;
+  }
+  .content-container .contact .contact-container .contact-form-container h1 {
+    padding-left: 25px;
+  }
+  .content-container .contact .contact-container .client {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  }
+  .content-container .contact .contact-container .client h1 {
+    padding-left: 30px;
+  }
+  .content-container .contact .contact-container .client .client-img img {
+    margin-bottom: 80px;
+    width: 90%;
+  }
+  .footer .footer-container .footer-items .right {
+    float: none;
+  }
+  .footer .footer-container .footer-items .right .newsletter form {
+    width: 100%;
+  }
+  .footer .footer-container .footer-items .right .newsletter .newsletter-btn {
+    float: none;
+    margin-left: 0;
+  }
+}
+@media (max-width: 600px) {
+  .header .header-content .navbar .menu {
+    display: none;
+  }
+  .header .header-content .navbar .hamburger {
+    display: inline-block;
+    float: right;
+  }
+  .header .header-content .main {
+    padding-top: 80px;
+  }
+  .header .header-content .main .dotnav .dot {
+    top: 50px;
+  }
+  .header .header-content .main .dotnav .dot:first-child {
+    left: 45%;
+  }
+  .header .header-content .main .dotnav .dot:nth-child(2) {
+    left: 48%;
+  }
+  .header .header-content .main .dotnav .dot:nth-child(3) {
+    left: 51%;
+  }
+  .header .header-content .main .dotnav .dot:last-child {
+    left: 54%;
+  }
+  .content-container {
+    margin-left: 0;
+  }
+  .content-container .about {
+    height: 450px;
+  }
+  .content-container .about .top {
+    padding-top: 0;
+  }
+  .content-container .about .top .logo-content {
+    padding-left: 60px;
+  }
+  .content-container .about .top .right-text {
+    display: block;
+    width: 90%;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .content-container .expertise .items .item {
+    width: 100%;
+    border: none;
+  }
+  .content-container .works .work-items .top-items .work-item {
+    display: block;
+    width: 100%;
+  }
+  .content-container .works .work-items .top-items .work-item:nth-child(4) {
+    display: none;
+  }
+  .content-container .works .work-items .top-items .work-item:last-child {
+    display: none;
+  }
+  .content-container .works .work-items .bottom-items .work-item {
+    display: none;
+  }
+  .content-container .testimonials {
+    padding: 30px 0;
+  }
+  .content-container .contact .contact-container {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .content-container .contact .contact-container .contact-form-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .content-container .contact .contact-container .contact-form-container h1 {
+    padding-left: 70px;
+  }
+  .content-container .contact .contact-container .contact-form-container form input {
+    width: 95%;
+  }
+  .content-container .contact .contact-container .contact-form-container form .input-message {
+    width: 95%;
+  }
+  .content-container .contact .contact-container .client .client-img {
+    padding-bottom: 20px;
+  }
+  .content-container .contact .contact-container .client .client-img img {
+    width: 90%;
+  }
+  .footer .footer-container {
+    padding: 30px 0;
+  }
+  .footer .footer-container .footer-items .left {
+    display: block;
+    width: 100%;
+  }
+  .footer .footer-container .footer-items .center {
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .footer .footer-container .footer-items .center .title {
+    padding-left: 0;
+  }
+  .footer .footer-container .footer-items .center .address {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .footer .footer-container .footer-items .center .phone {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .footer .footer-container .footer-items .right {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .footer .footer-container .footer-items .right h1 {
+    padding-left: 0;
+  }
+  .footer .footer-container .footer-items .right .newsletter {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .footer .footer-container .footer-items .right .social {
+    margin-left: 0;
+  }
+  .footer .footer-container .footer-bottom .menu li a {
+    padding-right: 20px;
+    padding-top: 30px;
+  }
+  .footer .footer-container .footer-bottom .copyright {
+    float: none;
+  }
+}
